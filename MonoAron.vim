@@ -1,7 +1,7 @@
 "MonoAron
 "combination of Monokai and Aron 
 
-
+"--------------------------------------------------------------
 " Converted from Textmate theme Monokai using Coloration v0.3.2 (http://github.com/sickill/coloration)
 
 
@@ -10,8 +10,7 @@
 " Vim color file
 " Maintainer:	Ron Aaron <ron@ronware.org>
 " Last Change:	2013 May 24
-
-
+"--------------------------------------------------------------
 
 
 
@@ -94,6 +93,13 @@ hi MatchParen ctermfg=120 ctermbg=NONE cterm=underline guibg=NONE gui=underline
 
 "	>>>>>KEYWORD<<<<<
 hi Keyword ctermfg=101 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
+
+
+"	>>>>>CURRENT CURSOR LINE<<<<<
+hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE gui=NONE
+
+"	>>>>>CURRENT CURSOR NUMBER LINE<<<<<
+hi CursorLineNR ctermbg=004 ctermfg=234 cterm=bold gui=bold
 
 
 "------------------------------------------------------------------------------------
